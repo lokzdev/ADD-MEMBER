@@ -5,8 +5,7 @@ import platform
 from typing import List, Optional
 from telethon import TelegramClient
 from telethon.errors import SessionPasswordNeededError, PeerFloodError, UserPrivacyRestrictedError
-from telethon.tl.functions.channels import InviteToChannelRequest, JoinChannelRequest
-from telethon.tl.functions.messages import GetParticipantRequest
+from telethon.tl.functions.channels import InviteToChannelRequest, JoinChannelRequest, GetParticipantRequest
 from telethon.tl.types import ChannelParticipantAdmin, ChannelParticipantCreator, InputPeerChannel
 
 # Configurações globais
